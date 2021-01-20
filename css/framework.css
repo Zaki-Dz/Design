@@ -1,0 +1,77 @@
+/* Start My Framework */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container{
+	margin: auto;
+	padding-left: 60px;
+}
+
+.clear-fix{
+	clear: both;
+}
+
+.text-left{
+	text-align: left;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.text-right{
+	text-align: right;
+}
+
+.float-left{
+	float: left;
+}
+
+.float-right{
+	float: right;
+}
+
+section{
+	padding: 20px 0;
+}
+
+.section-title{
+	font-family: verdana;
+	padding: 30px 0;
+}
+
+.classic-list{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+@media (max-width: 767px){ /* Mobile & Tablet */
+	.container{
+
+	}
+}
+
+@media (min-width: 768px){ /* Small screens */
+	.container{
+		width: 738px;
+	}
+}
+
+@media (min-width: 992px){ /* Medium screens */
+	.container{
+		width: 962px;
+	}
+}
+
+@media (min-width: 1200px){ /* Large screens */
+	.container{
+		width: 1170px;
+	}
+}
+
+/* End My Framework */
