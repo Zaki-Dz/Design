@@ -52,7 +52,7 @@ section{
 
 @media (max-width: 767px){ /* Mobile & Tablet */
 	.container{
-
+		padding-left: 0;
 	}
 }
 
