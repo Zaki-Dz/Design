@@ -4,7 +4,7 @@ setInterval(function(){
 
 	animation.style.display = 'none';
 
-}, 3000);
+}, 5000);
 
 let menu = document.querySelector('.menu');
 
